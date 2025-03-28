@@ -1,0 +1,34 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.8",
+    "version": "1.0.0",
+    "id": "6b0d8a82-db7c-4357-8706-cdd290af8820",
+    "packageName": "com.example.teamschatbot",
+    "developer": {
+      "name": "Pranjal Khadka",
+      "websiteUrl": "https://github.com/pranzalkhadka",
+      "privacyUrl": "https://github.com/pranzalkhadka",
+      "termsOfUseUrl": "https://github.com/pranzalkhadka"
+    },
+    "name": {
+      "short": "ChatBot",
+      "full": "ChatBot for Teams"
+    },
+    "description": {
+      "short": "A simple chatbot for Teams",
+      "full": "This bot uses FastAPI and LangChain_Groq to respond to messages."
+    },
+    "icons": {
+      "outline": "outline.png",
+      "color": "color.png"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+      {
+        "botId": "6b0d8a82-db7c-4357-8706-cdd290af8820",
+        "scopes": ["personal", "team", "groupchat"],
+        "supportsFiles": false
+      }
+    ],
+    "validDomains": ["teams-bot-12.fly.dev"]
+  }
