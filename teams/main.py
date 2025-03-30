@@ -45,7 +45,7 @@ async def on_turn(turn_context: TurnContext):
         if turn_context.activity.members_added:
             for member in turn_context.activity.members_added:
                 if member.id != turn_context.activity.recipient.id:
-                    await turn_context.send_activity("Hello! How can I assist you today?")
+                    await turn_context.send_activity("Hello! How can I assist you today ?")
     else:
         await turn_context.send_activity("I only respond to messages!")
 
